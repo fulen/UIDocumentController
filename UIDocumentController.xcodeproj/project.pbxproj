@@ -14,6 +14,7 @@
 		112126CF230528AD00883F01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 112126CD230528AD00883F01 /* LaunchScreen.storyboard */; };
 		112126DA230528AD00883F01 /* UIDocumentControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112126D9230528AD00883F01 /* UIDocumentControllerTests.swift */; };
 		112126E5230528AD00883F01 /* UIDocumentControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112126E4230528AD00883F01 /* UIDocumentControllerUITests.swift */; };
+		112126F3230528CA00883F01 /* Help-for-system-integrity.png in Resources */ = {isa = PBXBuildFile; fileRef = 112126F2230528CA00883F01 /* Help-for-system-integrity.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		112126E0230528AD00883F01 /* UIDocumentControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIDocumentControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		112126E4230528AD00883F01 /* UIDocumentControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIDocumentControllerUITests.swift; sourceTree = "<group>"; };
 		112126E6230528AD00883F01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		112126F2230528CA00883F01 /* Help-for-system-integrity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Help-for-system-integrity.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				112126C4230528AB00883F01 /* AppDelegate.swift */,
 				112126C6230528AB00883F01 /* ViewController.swift */,
 				112126C8230528AB00883F01 /* Main.storyboard */,
+				112126F2230528CA00883F01 /* Help-for-system-integrity.png */,
 				112126CB230528AD00883F01 /* Assets.xcassets */,
 				112126CD230528AD00883F01 /* LaunchScreen.storyboard */,
 				112126D0230528AD00883F01 /* Info.plist */,
@@ -232,6 +235,7 @@
 				112126CF230528AD00883F01 /* LaunchScreen.storyboard in Resources */,
 				112126CC230528AD00883F01 /* Assets.xcassets in Resources */,
 				112126CA230528AB00883F01 /* Main.storyboard in Resources */,
+				112126F3230528CA00883F01 /* Help-for-system-integrity.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +437,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VR68YN2MK2;
 				INFOPLIST_FILE = UIDocumentController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,6 +455,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VR68YN2MK2;
 				INFOPLIST_FILE = UIDocumentController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
